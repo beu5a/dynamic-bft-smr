@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<experiment boot="kollaps:2.0">
+	<services>
+		<!-- definition of the services (containers),  -->
+		<!-- kollaps dashboard to controll the experiments, should be present in all deployments -->
+	<service name="dashboard" image="kollaps/dashboard:1.0" supervisor="true" port="8088"/>
+	<!-- bft-smart Servers-->
+	<service name="s0" image="kollaps/paxi:1.0" replicas="1" share="false" command="['server','1.1']"/>
+        <service name="s1" image="kollaps/paxi:1.0" replicas="1" share="false" command="['server','1.2']"/>
+        <service name="s2" image="kollaps/paxi:1.0" replicas="1" share="false" command="['server','1.3']"/>
+        <service name="s3" image="kollaps/paxi:1.0" replicas="1" share="false" command="['server','1.4']"/>
+        <service name="client" image="kollaps/paxi:1.0" replicas="1" share="false" command="['client','1.1']"/>
+	</services>
+
+	<bridges>
+		<!-- definition of the network elements (routers and switches) -->
+	</bridges>
+        <links>
+		<!-- definition of the links, the "network" should match the name of an existing container network -->
+                <link origin="s0" dest="s1" latency="1" upload="1000Kbps" download="1000Kbps" drop="0" network="kollaps_network"/>
+                <link origin="s0" dest="s2" latency="1" upload="100Kbps" download="100Kbps" drop="0" network="kollaps_network"/>
+                <link origin="s0" dest="s3" latency="1" upload="100Kbps" download="100Kbps" drop="0" network="kollaps_network"/>
+                <link origin="s1" dest="s2" latency="1" upload="100Kbps" download="100Kbps" drop="0" network="kollaps_network"/>
+                <link origin="s1" dest="s3" latency="1" upload="100Kbps" download="100Kbps" drop="0" network="kollaps_network"/>
+                <link origin="s2" dest="s3" latency="1" upload="100Kbps" download="100Kbps" drop="0" network="kollaps_network"/>
+
+                <link origin="client" dest="s0" latency="1" upload="200Mbps" download="200Mbps" drop="0" network="kollaps_network"/>
+                <link origin="client" dest="s1" latency="1" upload="200Mbps" download="200Mbps" drop="0" network="kollaps_network"/>
+                <link origin="client" dest="s2" latency="1" upload="200Mbps" download="200Mbps" drop="0" network="kollaps_network"/>
+                <link origin="client" dest="s3" latency="1" upload="200Mbps" download="200Mbps" drop="0" network="kollaps_network"/>
+
+        </links>
+        <dynamic>
+                <!-- schedulle the dynamics of the experiment. These apply to services and links, see documentation for more details. -->
+                <schedule name="s0" time="0.0" action="join"/>
+                <schedule name="s1" time="0.0" action="join"/>
+                <schedule name="s2" time="0.0" action="join"/>
+                <schedule name="s3" time="0.0" action="join"/>
+                <schedule name="client" time="0.0" action="join"/>
+
+                <schedule name="s2" time="240.0" action="crash" />
+
+        </dynamic>
+</experiment>
+        

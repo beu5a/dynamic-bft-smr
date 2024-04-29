@@ -1,0 +1,32 @@
+FROM ubuntu:22.04
+
+WORKDIR /
+
+RUN apt-get update \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y\
+    gcc \
+    flex \
+    bison \ 
+    gettext \
+    grep \
+    iproute2 \
+    iptables \
+    make \
+    pkgconf \
+    python3 \
+    python3-pip \
+    && apt-get clean -y
+
+ADD ./kollaps /Kollaps/kollaps
+
+ADD ./setup.py /Kollaps/setup.py
+
+ADD /kube/ /root/.kube
+
+RUN pip3 --no-cache-dir install wheel dnspython flask docker kubernetes netifaces netaddr pyroute2 && \
+    pip3 --no-cache-dir wheel --no-deps -w /Kollaps /Kollaps && \
+    pip3 --no-cache-dir install /Kollaps/kollaps-2.0-py3-none-any.whl && \
+    rm -rf /Kollaps && \
+    mkdir /result && \
+    pip3 --no-cache-dir uninstall -y setuptools wheel pip && \
+    apt-get remove -y gcc make flex bison 
