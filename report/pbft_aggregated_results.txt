@@ -1,0 +1,399 @@
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 10Kbps
+[INFO] 2024/05/24 00:15:26.493885 benchmark.go:186: latency length = 36
+[INFO] 2024/05/24 00:15:26.494148 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:15:26.494160 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:15:26.494168 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:15:26.494189 benchmark.go:190: Benchmark Time = 20.614591677s
+[INFO] 2024/05/24 00:15:26.494196 benchmark.go:191: Throughput = 1.746336
+[INFO] 2024/05/24 00:15:26.494222 benchmark.go:192: size = 36
+mean = 4904.676207
+min = 3510.684335
+max = 6471.276562
+median = 4672.964672
+p95 = 6468.265889
+p99 = 6471.276562
+p999 = 6471.276562
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 50Kbps
+[INFO] 2024/05/24 00:21:29.433151 benchmark.go:186: latency length = 155
+[INFO] 2024/05/24 00:21:29.433330 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:21:29.433338 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:21:29.433342 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:21:29.433356 benchmark.go:190: Benchmark Time = 20.11359846s
+[INFO] 2024/05/24 00:21:29.433360 benchmark.go:191: Throughput = 7.706229
+[INFO] 2024/05/24 00:21:29.433372 benchmark.go:192: size = 155
+mean = 1258.076704
+min = 447.917470
+max = 1351.786040
+median = 1346.706906
+p95 = 1350.830307
+p99 = 1351.596754
+p999 = 1351.786040
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 100Kbps
+[INFO] 2024/05/24 00:23:30.269837 benchmark.go:186: latency length = 302
+[INFO] 2024/05/24 00:23:30.269998 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:23:30.270004 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:23:30.270007 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:23:30.270019 benchmark.go:190: Benchmark Time = 20.001291795s
+[INFO] 2024/05/24 00:23:30.270022 benchmark.go:191: Throughput = 15.099025
+[INFO] 2024/05/24 00:23:30.270032 benchmark.go:192: size = 302
+mean = 652.040787
+min = 202.766616
+max = 677.658985
+median = 675.189078
+p95 = 677.099976
+p99 = 677.555481
+p999 = 677.658985
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 200Kbps
+[INFO] 2024/05/24 00:27:33.457530 benchmark.go:186: latency length = 598
+[INFO] 2024/05/24 00:27:33.457768 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:27:33.457780 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:27:33.457788 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:27:33.457808 benchmark.go:190: Benchmark Time = 20.032769411s
+[INFO] 2024/05/24 00:27:33.457816 benchmark.go:191: Throughput = 29.851090
+[INFO] 2024/05/24 00:27:33.457834 benchmark.go:192: size = 598
+mean = 332.359137
+min = 107.478255
+max = 339.557489
+median = 338.406767
+p95 = 338.935542
+p99 = 339.083701
+p999 = 339.557489
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 300Kbps
+[INFO] 2024/05/24 00:29:33.992146 benchmark.go:186: latency length = 893
+[INFO] 2024/05/24 00:29:33.992276 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:29:33.992281 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:29:33.992284 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:29:33.992296 benchmark.go:190: Benchmark Time = 20.017141815s
+[INFO] 2024/05/24 00:29:33.992299 benchmark.go:191: Throughput = 44.611764
+[INFO] 2024/05/24 00:29:33.992309 benchmark.go:192: size = 893
+mean = 222.958292
+min = 73.309461
+max = 226.259729
+median = 225.684150
+p95 = 225.966408
+p99 = 226.138753
+p999 = 226.259729
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 400Kbps
+[INFO] 2024/05/24 00:31:35.302978 benchmark.go:186: latency length = 1188
+[INFO] 2024/05/24 00:31:35.303103 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:31:35.303108 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:31:35.303112 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:31:35.303123 benchmark.go:190: Benchmark Time = 20.011709423s
+[INFO] 2024/05/24 00:31:35.303126 benchmark.go:191: Throughput = 59.365243
+[INFO] 2024/05/24 00:31:35.303136 benchmark.go:192: size = 1188
+mean = 167.761570
+min = 54.846791
+max = 169.641762
+median = 169.294360
+p95 = 169.448309
+p99 = 169.513602
+p999 = 169.637024
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 500Kbps
+[INFO] 2024/05/24 00:35:37.505555 benchmark.go:186: latency length = 1482
+[INFO] 2024/05/24 00:35:37.505741 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:35:37.505753 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:35:37.505760 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:35:37.505767 benchmark.go:190: Benchmark Time = 20.00243811s
+[INFO] 2024/05/24 00:35:37.505771 benchmark.go:191: Throughput = 74.090968
+[INFO] 2024/05/24 00:35:37.505782 benchmark.go:192: size = 1482
+mean = 134.518453
+min = 44.967119
+max = 136.176451
+median = 135.440249
+p95 = 135.559834
+p99 = 135.614556
+p999 = 135.842615
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 600Kbps
+[INFO] 2024/05/24 00:39:39.367625 benchmark.go:186: latency length = 1778
+[INFO] 2024/05/24 00:39:39.367772 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:39:39.367779 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:39:39.367783 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:39:39.367790 benchmark.go:190: Benchmark Time = 20.006939749s
+[INFO] 2024/05/24 00:39:39.367794 benchmark.go:191: Throughput = 88.869164
+[INFO] 2024/05/24 00:39:39.367807 benchmark.go:192: size = 1778
+mean = 112.206242
+min = 34.531523
+max = 113.460044
+median = 112.871520
+p95 = 112.965316
+p99 = 113.011853
+p999 = 113.445357
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 700Kbps
+[INFO] 2024/05/24 00:41:41.101763 benchmark.go:186: latency length = 2073
+[INFO] 2024/05/24 00:41:41.101939 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:41:41.101949 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:41:41.101955 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:41:41.101964 benchmark.go:190: Benchmark Time = 20.006266075s
+[INFO] 2024/05/24 00:41:41.101970 benchmark.go:191: Throughput = 103.617536
+[INFO] 2024/05/24 00:41:41.101994 benchmark.go:192: size = 2073
+mean = 96.269255
+min = 31.617483
+max = 97.180409
+median = 96.743949
+p95 = 96.847494
+p99 = 96.899523
+p999 = 97.065263
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 800Kbps
+[INFO] 2024/05/24 00:43:40.924609 benchmark.go:186: latency length = 2368
+[INFO] 2024/05/24 00:43:40.924742 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:43:40.924748 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:43:40.924752 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:43:40.924757 benchmark.go:190: Benchmark Time = 20.009235288s
+[INFO] 2024/05/24 00:43:40.924761 benchmark.go:191: Throughput = 118.345352
+[INFO] 2024/05/24 00:43:40.924771 benchmark.go:192: size = 2368
+mean = 84.307556
+min = 39.486834
+max = 86.352896
+median = 84.653106
+p95 = 84.755108
+p99 = 85.631853
+p999 = 86.330746
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 900Kbps
+[INFO] 2024/05/24 00:47:42.510825 benchmark.go:186: latency length = 2663
+[INFO] 2024/05/24 00:47:42.510959 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:47:42.510965 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:47:42.510969 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:47:42.510980 benchmark.go:190: Benchmark Time = 20.006623826s
+[INFO] 2024/05/24 00:47:42.510983 benchmark.go:191: Throughput = 133.105916
+[INFO] 2024/05/24 00:47:42.510993 benchmark.go:192: size = 2663
+mean = 74.978462
+min = 25.690940
+max = 75.806342
+median = 75.244156
+p95 = 75.326962
+p99 = 75.381585
+p999 = 75.577402
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 1Mbps
+[INFO] 2024/05/24 00:49:44.040916 benchmark.go:186: latency length = 2958
+[INFO] 2024/05/24 00:49:44.041058 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:49:44.041065 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:49:44.041069 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:49:44.041089 benchmark.go:190: Benchmark Time = 20.00402918s
+[INFO] 2024/05/24 00:49:44.041093 benchmark.go:191: Throughput = 147.870210
+[INFO] 2024/05/24 00:49:44.041104 benchmark.go:192: size = 2957
+mean = 67.503108
+min = 26.605851
+max = 68.199023
+median = 67.719383
+p95 = 67.805706
+p99 = 67.844788
+p999 = 68.068749
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 2Mbps
+[INFO] 2024/05/24 00:53:46.425530 benchmark.go:186: latency length = 5909
+[INFO] 2024/05/24 00:53:46.425658 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:53:46.425665 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:53:46.425668 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:53:46.425674 benchmark.go:190: Benchmark Time = 20.001204558s
+[INFO] 2024/05/24 00:53:46.425678 benchmark.go:191: Throughput = 295.432207
+[INFO] 2024/05/24 00:53:46.425687 benchmark.go:192: size = 5909
+mean = 33.809199
+min = 10.353684
+max = 34.717657
+median = 33.857131
+p95 = 33.945027
+p99 = 34.097784
+p999 = 34.589136
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 3Mbps
+[INFO] 2024/05/24 00:55:46.549550 benchmark.go:186: latency length = 8859
+[INFO] 2024/05/24 00:55:46.549737 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:55:46.549746 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:55:46.549752 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:55:46.549778 benchmark.go:190: Benchmark Time = 20.001277545s
+[INFO] 2024/05/24 00:55:46.549784 benchmark.go:191: Throughput = 442.921707
+[INFO] 2024/05/24 00:55:46.549802 benchmark.go:192: size = 8859
+mean = 22.556724
+min = 8.932988
+max = 24.663565
+median = 22.573912
+p95 = 22.636840
+p99 = 22.756164
+p999 = 23.627971
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 4Mbps
+[INFO] 2024/05/24 00:57:47.555915 benchmark.go:186: latency length = 11805
+[INFO] 2024/05/24 00:57:47.556049 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 00:57:47.556055 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 00:57:47.556059 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 00:57:47.556071 benchmark.go:190: Benchmark Time = 20.000627595s
+[INFO] 2024/05/24 00:57:47.556074 benchmark.go:191: Throughput = 590.231479
+[INFO] 2024/05/24 00:57:47.556085 benchmark.go:192: size = 11805
+mean = 16.928334
+min = 6.426092
+max = 21.144700
+median = 16.937222
+p95 = 16.997455
+p99 = 17.139892
+p999 = 18.683430
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 5Mbps
+[INFO] 2024/05/24 01:03:51.843083 benchmark.go:186: latency length = 14750
+[INFO] 2024/05/24 01:03:51.843232 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 01:03:51.843239 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 01:03:51.843242 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 01:03:51.843248 benchmark.go:190: Benchmark Time = 20.000943447s
+[INFO] 2024/05/24 01:03:51.843252 benchmark.go:191: Throughput = 737.465212
+[INFO] 2024/05/24 01:03:51.843261 benchmark.go:192: size = 14749
+mean = 13.549531
+min = 5.675874
+max = 24.174576
+median = 13.553761
+p95 = 13.635254
+p99 = 13.906413
+p999 = 15.975907
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 6Mbps
+[INFO] 2024/05/24 01:05:53.307537 benchmark.go:186: latency length = 17697
+[INFO] 2024/05/24 01:05:53.307825 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 01:05:53.307838 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 01:05:53.307845 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 01:05:53.307874 benchmark.go:190: Benchmark Time = 20.000783638s
+[INFO] 2024/05/24 01:05:53.307882 benchmark.go:191: Throughput = 884.815331
+[INFO] 2024/05/24 01:05:53.307961 benchmark.go:192: size = 17697
+mean = 11.291738
+min = 5.586226
+max = 21.675997
+median = 11.293649
+p95 = 11.396783
+p99 = 11.619640
+p999 = 14.144079
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 7Mbps
+[INFO] 2024/05/24 01:07:54.322657 benchmark.go:186: latency length = 19999
+[INFO] 2024/05/24 01:07:54.322795 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 01:07:54.322801 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 01:07:54.322805 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 01:07:54.322815 benchmark.go:190: Benchmark Time = 20.001995872s
+[INFO] 2024/05/24 01:07:54.322819 benchmark.go:191: Throughput = 999.900216
+[INFO] 2024/05/24 01:07:54.322829 benchmark.go:192: size = 19996
+mean = 5.518068
+min = 5.296746
+max = 20.773671
+median = 5.453981
+p95 = 5.671169
+p99 = 7.650302
+p999 = 9.685350
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 8Mbps
+[INFO] 2024/05/24 01:09:55.196503 benchmark.go:186: latency length = 19998
+[INFO] 2024/05/24 01:09:55.196650 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 01:09:55.196656 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 01:09:55.196660 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 01:09:55.196666 benchmark.go:190: Benchmark Time = 20.000463137s
+[INFO] 2024/05/24 01:09:55.196669 benchmark.go:191: Throughput = 999.876846
+[INFO] 2024/05/24 01:09:55.196680 benchmark.go:192: size = 19995
+mean = 5.506455
+min = 5.304742
+max = 21.702985
+median = 5.464611
+p95 = 5.657544
+p99 = 6.374789
+p999 = 9.621369
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 9Mbps
+[INFO] 2024/05/24 01:11:56.531210 benchmark.go:186: latency length = 19995
+[INFO] 2024/05/24 01:11:56.531351 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 01:11:56.531357 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 01:11:56.531361 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 01:11:56.531367 benchmark.go:190: Benchmark Time = 20.000644677s
+[INFO] 2024/05/24 01:11:56.531370 benchmark.go:191: Throughput = 999.767774
+[INFO] 2024/05/24 01:11:56.531379 benchmark.go:192: size = 19993
+mean = 5.489011
+min = 5.302608
+max = 23.226903
+median = 5.449524
+p95 = 5.625784
+p99 = 6.333351
+p999 = 9.290549
+****************************************************************
+Number of servers: 4
+Number of strugglers: 2
+Fast links: 10Mbps
+Slow links: 10Mbps
+[INFO] 2024/05/24 01:13:57.530171 benchmark.go:186: latency length = 19997
+[INFO] 2024/05/24 01:13:57.530309 benchmark.go:187: Concurrency = 10
+[INFO] 2024/05/24 01:13:57.530315 benchmark.go:188: Write Ratio = 1.000000
+[INFO] 2024/05/24 01:13:57.530319 benchmark.go:189: Number of Keys = 1000
+[INFO] 2024/05/24 01:13:57.530325 benchmark.go:190: Benchmark Time = 20.000080779s
+[INFO] 2024/05/24 01:13:57.530328 benchmark.go:191: Throughput = 999.845962
+[INFO] 2024/05/24 01:13:57.530339 benchmark.go:192: size = 19994
+mean = 5.492709
+min = 5.298500
+max = 21.254523
+median = 5.452809
+p95 = 5.628329
+p99 = 6.262718
+p999 = 10.933652
+****************************************************************

@@ -1,0 +1,3 @@
+[INFO] 2024/05/23 20:14:02.494790 server.go:33: node 1.3 starting...
+[INFO] 2024/05/23 20:14:02.494980 node.go:70: node 1.3 start running
+[INFO] 2024/05/23 20:14:02.495002 http.go:40: http server starting on :9080

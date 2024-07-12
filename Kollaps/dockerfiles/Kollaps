@@ -59,6 +59,7 @@ RUN make -C /Kollaps/pid1 && \
     rm -rf /Kollaps && \
     pip3 --no-cache-dir uninstall -y setuptools wheel pip3 && \
     apt-get remove -y gcc make flex bison
+RUN pip3 install --force-reinstall 'requests<2.29.0' 'urllib3<2.0'
 
 WORKDIR /
 
